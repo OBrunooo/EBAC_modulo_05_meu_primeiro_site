@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    width: 100%
+}
+
+header .container {
+    padding: 10px 70px;
+    height: 100px;
+    align-items: center; 
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(193, 151, 96);
+}
+
+header .container h1 {
+    font-family: 'Alkatra', cursive;
+    font-size: 60px;
+}
+
+header .container a {
+    font-size: 17px;
+    text-decoration: none;
+    color:black
+}
+
+header .container li {
+    display: inline;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.clube {
+    color: black;
+    font-size: 20px;
+    align-items: center;
+    padding: 10px 150px;
+    padding-top: 32px;
+    display: flex;
+    background-color: rgb(216, 201, 182);
+}
+
+.conteudo {
+    margin-right: 70px;
+    width: 500px;
+    height: 400px;
+}
+
+.conteudo h2 {
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.clube img {
+    height: 300px;
+    border-radius: 30px;
+}
+
+.feedback img:hover {
+    transform: scale(1.1);
+    transition: 200ms linear;
+
+}
+
+.feedback {
+padding: 10px 70px;
+padding-top: 10px;
+text-align: center;
+background-color:rgb(216, 201, 182);
+align-items: center;
+}
+
+.feedback h2 {
+font-size: 40px;
+padding-bottom: 30px;
+}
+
+.feedback img {
+height: 450px;
+border-radius: 10%;
+}
+
+.feedback li {
+display: inline;
+padding: 10px;
+}
+
+.cadastrar img {
+    margin-top: 60px;
+    height: 350px;
+    border-radius: 30px;
+}
+
+
+.cadastrar {
+    padding-bottom: 50px;
+    padding-top: 70px;
+    display: flex;
+    padding-left: 150px;
+    background-color: rgb(216, 201, 182);
+}
+
+.txtcadastro {
+    margin-right: 70px;
+    width: 500px;
+    font-size: 20px;
+}
+
+#cadastro {
+    font-size: 36px;
+    padding-bottom: 16px;
+}
+
+.formulario {
+    width: 300px;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    background-color:rgb(193, 151, 96) ;
+    border-radius: 10px;
+}
+
+.formulario h3 {
+    margin-bottom: 16px;
+}
+
+form {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+form input {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+}
+
+form button {
+    align-items: center;
+    border: 0;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+form button:hover {
+    transform: scale(1.1);
+    transition: 200ms linear;
+}
+
+.rodape {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(193, 151, 96);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
